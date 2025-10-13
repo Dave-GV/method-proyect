@@ -1,0 +1,31 @@
+#root {
+  background-color: rgba(235, 235, 235, 0);
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section-l {
+  flex: 1;
+  padding: 100px;
+}
+.section-r {
+  background-color: rgb(255, 255, 255);
+  width: 100vh;
+  flex: 1;
+  padding: 16px;
+}
+
+h1 {
+  color: black;
+}
+
+.bg-table {
+  padding: 16px;
+  background-color: rgb(63, 63, 63);
+  border-radius: 12px;
+
+}
