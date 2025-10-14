@@ -7,12 +7,11 @@ function App() {
 
   return (
     <>
-     
       <div className="container">
         <div className='section-l'>
           <div className='bg-table'>
-            
-            <AccessibleTable/>
+            <TablaDatosConEstaticos className='tb-ingreso'/>
+
           </div>
         </div>
         <div className='section-r'>

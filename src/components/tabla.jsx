@@ -1,10 +1,11 @@
 import React from 'react';
+import './tabla.css'
 
 // Definición de datos estáticos de ejemplo
 const datosEjemplo = [
-  { id: 1, nombre: '14', edad: 28, ciudad: '14' },
-  { id: 2, nombre: '34', edad: 35, ciudad: '51' },
-  { id: 3, nombre: '23', edad: 22, ciudad: '62' },
+  { id: 1, nombre: '14', edad: 28, ciudad: '14', cinco: '14', seis: '14', siete: '14', ocho: '14'},
+  { id: 2, nombre: '34', edad: 35, ciudad: '51', cinco: '14', seis: '14', siete: '14', ocho: '14'},
+  { id: 3, nombre: '23', edad: 22, ciudad: '62', cinco: '14', seis: '14', siete: '14', ocho: '14'},
 ];
 
 // Definición de las cabeceras de la tabla

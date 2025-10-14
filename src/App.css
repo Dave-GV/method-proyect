@@ -1,5 +1,5 @@
 #root {
-  background-color: rgba(235, 235, 235, 0);
+  background-color: #1e1f20;
 }
 
 .container {
@@ -13,7 +13,7 @@
   padding: 100px;
 }
 .section-r {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(45, 45, 45);
   width: 100vh;
   flex: 1;
   padding: 16px;
@@ -25,7 +25,8 @@ h1 {
 
 .bg-table {
   padding: 16px;
-  background-color: rgb(63, 63, 63);
+  
   border-radius: 12px;
 
 }
+

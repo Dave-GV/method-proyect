@@ -20,9 +20,10 @@ const rows = [
 export default function AccessibleTable() {
   return (
     <TableContainer component={Paper} sx={{ 
-        //backgroundColor: 'transparent', // ¡Esto quita el color de fondo!
-        //boxShadow: 'none',
-        //color: 'white' // Esto quita la sombra (elevación)
+        backgroundColor: 'transparent', // ¡Esto quita el color de fondo!
+        boxShadow: 'none',
+        color: 'white',
+         // Esto quita la sombra (elevación)
       }}>
       <Table sx={{ minWidth: 650, backgroundColor: 'transparent', }} aria-label="caption table">
         <caption>A basic table example with a caption</caption>
