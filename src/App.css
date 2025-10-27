@@ -1,5 +1,5 @@
 #root {
-  background-color: #1e1f20;
+  background-color: #181818; /*#1e1f20;*/
 }
 
 .container {
@@ -11,16 +11,17 @@
 .section-l {
   flex: 1;
   padding: 100px;
+  color: #FFFFFF;
 }
 .section-r {
-  background-color: rgb(45, 45, 45);
-  width: 100vh;
+  background-color: #212121;/* rgb(255, 255, 255);*/
   flex: 1;
-  padding: 16px;
+  color: #B0B0B0;
+  padding: 100px;
 }
 
 h1 {
-  color: black;
+  color: white;
 }
 
 .bg-table {
